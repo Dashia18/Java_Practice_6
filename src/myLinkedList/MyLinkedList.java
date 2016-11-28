@@ -30,11 +30,7 @@ public class MyLinkedList<E> implements ILinkedList<E> {
         if(begin.getNextNode() == null) {
             begin.setNextNode(node);
         }
-
         size++;
-
-//        System.out.println("nodeNew El = "+ node.getElement());
-//        System.out.println("nodeNew next = "+ node.getNextNode());
     }
 
     @Override
