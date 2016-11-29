@@ -33,13 +33,13 @@ public class MyLinkedList<E> implements ILinkedList<E> {
             begin.setNextNode(node);
         }
         else {
-//            nodeNext = new Node<E>(element, null);
-//            node = getNode(size-1);//get last Node
-//            node.setNextNode(nodeNext);
+            nodeNext = new Node<E>(element, null);
+            node = getNode(size-1);//get last Node
+            node.setNextNode(nodeNext);
 
             //add in the beginning
-            node = new Node<E>(element, begin.getNextNode());
-            begin.setNextNode(node);
+//            node = new Node<E>(element, begin.getNextNode());
+//            begin.setNextNode(node);
 
         }
         size++;
