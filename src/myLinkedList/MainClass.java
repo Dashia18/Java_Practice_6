@@ -56,7 +56,7 @@ public class MainClass {
         mList.clear();
         System.out.println("\nClear List, size of array = " +mList.size());
 
-
+        System.out.println();
         System.out.println("MyLinkedList");
         MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
             int n = 1000;
